@@ -142,3 +142,7 @@ br {
 .artist p a{
     text-align: center;
 }
+
+.artist ul li p{
+    padding-top: 10px;
+}
