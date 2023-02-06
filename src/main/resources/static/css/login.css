@@ -66,6 +66,7 @@ form .text_field{
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
 }
 
 #btn_Ingresar{
