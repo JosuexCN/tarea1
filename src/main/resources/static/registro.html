@@ -1,15 +1,53 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
+
 <html>
+
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTRARSE</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" href="css/registro.css"/>
     </head>
+
     <body>
-        <div>TODO write content</div>
+        <div class="center">
+
+            <h1>Registrarse</h1>
+            <form name = "login" method="post" >    <!-- Post -> Indica que se quiere enviar esta información -->
+                <div class="text_field">
+                    <input type="text" required>
+                    <label>Nombre de usuario</label>
+                </div>
+
+                <div class="text_field">
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                
+                <div class="text_field">
+                    <input type="text" required>
+                    <label>Apellido (s) </label>
+                </div>
+                <div class="text_field">
+                    <input type="text" required>
+                    <label>Correo electrónico</label>
+                </div>
+                
+                <div class="text_field">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                
+                <div class="pass" id ="btn_Ingresar">
+                    <input type="submit" name="Login" value = "Ingresar" id = "btnIngresar">
+                </div>
+                <div id="forgot">                    
+                    <ul>
+                        <li>Olvidé la contraseña</li>
+                        <li> <a href="home.html">Regresar</a></li>
+                    </ul>
+                </div>     
+            </form>
+
+        </div>
     </body>
 </html>

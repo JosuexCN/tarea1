@@ -1,1 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+*{
+    /*Selector universal: todas las propiedades se aplicarán a las demás etiquetas*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*Desplaza la etiqueta en el eje x y y*/
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(../images/registro_background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center h1{
+    text-align: center;
+    padding: 20px 0 ; /*top right left bottom o en este caso top y bottom, left y right*/
+    border-bottom: 1px solid silver;
+}
+
+.center form{
+    padding: 0 80px;
+
+}
+
+form .text_field{
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+.text_field input{
+    width: 100%;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #eeeee4;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+#btnIngresar{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#btn_Ingresar{
+    text-align: center;
+}
+
+#forgot{
+    text-align: center;
+    font-size: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#forgot ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 55px;
+}
+
+#forgot ul li a{
+     text-decoration: none;
+}
