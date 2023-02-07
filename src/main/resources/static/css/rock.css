@@ -15,20 +15,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+nav{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: red;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: large;
+    margin: 20px;
+    font-weight: 400;
+}
+
+nav ul li a{ /*Le da el estilo al list item dentro del unordered list dentro del nav*/
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.currentPage{
+    font-weight: 900;
+}
+
 
 .titulo{
     text-align: center;
     padding: 40px;
     background-color: #cc0000;
     color: white;
+    text-decoration: none;
    
 }
-a{
-  
-    color: white;
-    text-decoration: none;
-    
-}
+
 
 body
 {
@@ -39,7 +63,7 @@ body
     bottom: -130px;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: url(../images/rock.jpg);
+    background-image: url(../images/ROCK1.jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,7 +74,7 @@ body
     width:180px;
     height:300px;
    float: left;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-left: 110px;
     background: white;
     border-radius: 10px;
@@ -65,7 +89,7 @@ body
     width:300px;
     height:300px;
    float: left;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-left: 110px;
     background: white;
     border-radius: 10px;
@@ -80,7 +104,7 @@ body
     width:350px;
     height:300px;
    float: left;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-left: 110px;
     background: white;
     border-radius: 10px;
